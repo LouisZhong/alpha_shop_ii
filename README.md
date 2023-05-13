@@ -17,7 +17,7 @@ React 18.2.0
 
 2.將專案 clone 到本地 
 
-`git clone  https://github.com/LouisZhong/alpha_shop.git`
+`git clone  https://github.com/LouisZhong/alpha_shop_ii.git`
  
 3.透過終端機進入資料夾(alpha_shop)，輸入：
 

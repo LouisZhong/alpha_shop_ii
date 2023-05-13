@@ -1,6 +1,5 @@
 $gray : #C8C8C8;
 
-
 .cartContainer {
   border: 1px solid $gray;
   border-radius: 6px;
@@ -16,7 +15,6 @@ $gray : #C8C8C8;
       display: flex;
       align-items: flex-start;
       padding: 20px 0px;
-      // border: 1px solid red;
       .productImg {
         background-size: cover;
         width: 100px;
@@ -27,11 +25,9 @@ $gray : #C8C8C8;
         flex-direction: column;
         flex-wrap: wrap;
         width: 300px;
-        // border: 1px solid green; 
         padding-left: 24px;
         width:100%;
         .productControlContainer {
-          // border: 1px solid black;
           .productControl {
             display: flex;
             justify-content: space-between;
@@ -50,7 +46,6 @@ $gray : #C8C8C8;
           font-size: 16px;
           position: absolute;
           right: 12px
-          // color: red
         }
       }
     }
@@ -58,9 +53,12 @@ $gray : #C8C8C8;
 }
 
   .cartInfo {
-    padding: 20px 0px;
+    padding: 20px 20px 20px 0px;
     border-top: 1px solid gray;
     display: flex;
     justify-content: space-between;
+    .price {
+      font-weight: 700;
+    }
   }
 
